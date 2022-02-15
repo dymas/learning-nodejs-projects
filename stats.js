@@ -18,5 +18,5 @@ setInterval(() => {
     console.log('=== PC STATS ===')
     console.table(stats)
 
-    log('Rodando...')
+    log(`${JSON.stringify(stats)}\n`)
 }, 1000)
